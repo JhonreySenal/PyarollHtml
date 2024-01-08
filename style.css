@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background: linear-gradient(43deg, rgba(2,0,36,1) 0%, rgba(9,113,121,1) 49%, rgba(0,245,255,1) 83%);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(43deg, rgba(2,0,36,1) 4%, rgba(9,113,121,1) 80%, rgba(0,0,0,1) 94%);
+    position: fixed;
+    width: 100%;
+    padding: 16px;
+}
+
+
+
+.nav-links li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fffffe;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    letter-spacing: 1px;
+}
+
+.nav-links li a:hover{
+    letter-spacing: 2px;
+    transition: all .3s ease-in;
+    
+    
+}
+
+.nav-links ul li {
+    display: flex;;
+    
+}
+
+.nav-logo h2{
+    text-align: center;
+    color: white;
+    margin-left: 12px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.payroll-form {
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding: 20px;
+    width: 400px;
+    margin-top: 90px;
+}
+
+
+#employee-label{
+    margin-top: 12px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.line{
+    color: white;
+    width: 95%;
+    border: 1px solid white;
+    margin-top: 12px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline:none;
+    background-color: rgba(0, 0, 0, 0.39);
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#fullTimeFields{
+    display: block;
+}
+
+.fields {
+    display: none;
+}
+
+.fields.active {
+    display: block;
+}
+
+.button button{
+    background-color: rgba(37, 241, 37, 0.644);
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-radius: 17px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    cursor: pointer;
+    font-size: 13px;
+    
+    
+}
+
+.button button:hover{
+    background-color: rgba(0, 129, 0, 0.849);
+    color: white;
+}
+
